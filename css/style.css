@@ -63,6 +63,7 @@
   cursor: pointer;
   box-shadow: var(--box-shadow);
   background-color: var(--white);
+  border-radius: 0.5rem;
 }
 
 .gallery .image-container img:hover {
@@ -106,6 +107,8 @@
   font-size: 17px;
   color: var(--black);
   text-transform: none;
+  border-radius: 0.5rem;
+  /* background-color:transparent; */
 }
 
 .side-bar .box .btn {
@@ -118,6 +121,7 @@
   font-size: 17px;
   padding: 10px 30px;
   text-transform: capitalize;
+  border-radius: 0.5rem;
 }
 
 .side-bar .box .btn:hover,
